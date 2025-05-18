@@ -7,7 +7,7 @@ import {
 
 export default function App() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center gap-6 bg-slate-900 px-4">
+    <main className="min-h-screen flex flex-col items-center justify-center gap-6 bg-slate-900 px-4 max-w-md mx-auto">
       <Header />
 
       <div className="w-full flex flex-col items-center gap-3 mt-4">
