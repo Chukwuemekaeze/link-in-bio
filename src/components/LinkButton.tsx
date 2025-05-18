@@ -12,6 +12,9 @@ export default function LinkButton({ href, label, icon }: Props) {
     href={href}
     target="_blank"
     rel="noopener noreferrer"
+    onClick={() =>
+      (window as any).plausible?.('Button click', { props: { label } })
+    }
     className="
       flex items-center gap-2 w-full max-w-xs py-3 px-4 rounded-lg
       bg-slate-900/10 text-black dark:bg-white/10 dark:text-white
