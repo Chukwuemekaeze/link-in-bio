@@ -6,8 +6,12 @@ export default function Header() {
         alt="Profile"
         className="w-24 h-24 rounded-full border-4 border-white/20"
       />
-      <h1 className="text-3xl font-bold text-white">Chukwuemeka Eze</h1>
-      <p className="text-slate-400">CS student · Builder · Fitness nerd</p>
+      <h1 className="text-3xl font-bold text-black dark:text-white">
+        Chukwuemeka Eze
+      </h1>
+      <p className="text-slate-600 dark:text-slate-400">
+        CS student · Builder · Fitness nerd
+      </p>
     </header>
   );
 }
